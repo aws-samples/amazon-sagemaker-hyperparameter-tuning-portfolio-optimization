@@ -13,7 +13,7 @@ then
     exit 1
 fi
 
-chmod +x container/hpo/train
+chmod +x container/hpo/train.py
 
 # Get the account number associated with the current IAM credentials
 account=$(aws sts get-caller-identity --query Account --output text)

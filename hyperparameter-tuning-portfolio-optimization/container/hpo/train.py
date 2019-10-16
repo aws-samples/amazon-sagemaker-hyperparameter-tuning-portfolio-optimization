@@ -4,10 +4,6 @@ Email: sggregoi@amazon.com; meglerv@amazon.com
 Created: 9/4/2019
 '''
 
-#!/usr/bin/env python
-
-from __future__ import print_function, division
-
 import os
 import json
 import pickle
