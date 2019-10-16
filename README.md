@@ -12,7 +12,7 @@ This approach has several advantages over the typical threshold determination ap
 
 Also, this approach moves beyond using general rules-of-thumb and "expert judgment" in determining an optimal threshold. It lays out a structured framework that can be systematically applied to any classification problem. Additionally, this approach requires the business to explicitly state its cost matrix, based on the specific actions to be taken on the predictions and their benefits and costs. This evaluation process moves well beyond simply assessing the classification results of the model. This approach can drive challenging discussions in the business, and force differing implicit decisions and valuations onto the table for open discussion and agreement. This drives the discussion from a simple “maximize this value”, to a more informative analysis that allows more complex economic tradeoffs to be made – providing more value back to the business.
 
-To build and train the model, open the jupyter notebook contained in the hyperparameter-tuning-portfolio-optimization folder and follow the instructions in the notebook.
+To build and train the model, first [create an Amazon SageMaker notebook instance](https://docs.aws.amazon.com/sagemaker/latest/dg/gs-setup-working-env.html). In Step 3.b, make sure to choose an Instance type of ml.c5.2xlarge. Next, load this repo onto the newly created notebook instance, then open the jupyter notebook contained in the hyperparameter-tuning-portfolio-optimization folder and follow the instructions in the notebook.
 
 The blog post associated with this repo is located here.
 
