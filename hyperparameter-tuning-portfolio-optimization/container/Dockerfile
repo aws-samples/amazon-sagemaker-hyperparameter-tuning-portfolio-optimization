@@ -1,7 +1,5 @@
 FROM continuumio/miniconda3:4.6.14
 
-MAINTAINER Scott Gregoire <sggregoi@amazon.com>
-
 RUN apt-get -y update
 
 RUN conda install pandas==0.24.2 scikit-learn==0.20.0 numpy scipy

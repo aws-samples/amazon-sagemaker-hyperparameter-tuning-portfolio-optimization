@@ -1,6 +1,5 @@
 '''
 Author: Scott Gregoire, Ph.D.; Veronika Megler, Ph.D.
-Email: sggregoi@amazon.com; meglerv@amazon.com
 Created: 9/4/2019
 '''
 
