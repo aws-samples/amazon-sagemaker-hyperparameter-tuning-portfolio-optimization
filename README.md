@@ -14,7 +14,7 @@ Also, this approach moves beyond using general rules-of-thumb and "expert judgme
 
 To build and train the model, first [create an Amazon SageMaker notebook instance](https://docs.aws.amazon.com/sagemaker/latest/dg/gs-setup-working-env.html). In Step 3.b, make sure to choose an Instance type of ml.c5.2xlarge. Next, load this repo onto the newly created notebook instance, then open the jupyter notebook contained in the hyperparameter-tuning-portfolio-optimization folder and follow the instructions in the notebook.
 
-The blog post associated with this repo is located here.
+The [blog post](https://aws.amazon.com/blogs/machine-learning/optimizing-portfolio-value-with-amazon-sagemaker-automatic-model-tuning/) associated with this repo is located here.
 
 ## License Summary
 
